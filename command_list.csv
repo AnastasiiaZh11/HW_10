@@ -1,0 +1,79 @@
+    1  ршыещкн -с
+    2  echo "" > ~/.bash_history
+    3  rm ~/.bash_history
+    4  git config --global user.name "Nastyatest"
+    5  git config --global user.email "nastya.enshin@gmail.com"
+    6  git config --global --list
+    7  git clone https://github.com/<Nastyatest>/HW_10.git
+    8  git clone https://github.com/<Nastyatest>/HW_10.git
+    9  git clone https://github.com/<Nastyatest>/HW_10.git
+   10  cd HW_10
+   11  ls
+   12  mkdir HW_10
+   13  cd HW_10
+   14  git clone https://github.com/<Nastyatest>/HW_10.git
+   15  git clone https://github.com/Nastyatest/HW_10.git
+   16  cd HW_10
+   17  touch text_ignore.txt
+   18  nano .gitignore
+   19  git status
+   20  git add .
+   21  clear
+   22  cd path/to/your/repository/HW_10
+   23  touch text_ignore.txt
+   24  nano .gitignore
+   25  git status
+   26  clear
+   27  git clone https://github.com/AnastasiiaZh11/HW_10?tab=readme-ov-file#hw_10
+   28  git clone https://github.com/AnastasiiaZh11/HW_10.git
+   29  cd AnastasiiaZh11
+   30  cd HW_10
+   31  touch text_ignore.txt
+   32  echo text_ignore.txt >> .gitignore 
+   33  git status
+   34  git add .gitignore
+   35  git commit -m "додавання text_ignore.txt до .gitignore
+   36  git status
+   37  git status
+   38  git status
+   39  cd HW_10
+   40  git status 
+   41  pwd
+   42  ls -la
+   43  cd HW_10
+   44  git status 
+   45  git commit -m додавання text_ignore.txt до .gitignore
+   46  git commit -m "Додавання text_ignore.txt до .gitignore"
+   47  touch main_test.txt
+   48  git add
+   49  git add .
+   50  git commit -m "Додавання порожнього файлу main_test.txt"
+   51  git checkout -b develop
+   52  touch develop_test.txt
+   53  git add .
+   54  git commit -m "Додавання порожнього файлу develop_test.txt"
+   55  nano develop_test.txt
+   56  git status
+   57  git add develop_test.txt
+   58  git status
+   59  git commit -m "Внесення змін у файл develop_test.txt"
+   60  git checkout main
+   61  git merge develop
+   62  git log
+   63  history > command_list.csv
+   64  git add .
+   65  cd
+   66  cd AnastasiiaZh11
+   67  cd Projects/AnastasiiaZh11
+   68  history > command_list.csv
+   69  git add .
+   70  cd AnastasiiaZh11
+   71  cd HW_10
+   72  git add .
+   73  git init
+   74  git add .
+   75  git rm --cashed HW_10
+   76  git rm --cached HW_10
+   77  git restore --staged HW_10
+   78  pwd
+   79  history > command_list.csv
